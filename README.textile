@@ -1,0 +1,12 @@
+h1. Learning Erlang by Doing
+
+This is just some code i hacked together to get a feeling for erlang. As such, it's
+incomplete and very unmemorable but at least i won't loss it if my harddrive dies.
+
+The main aim was to get a network storage simulation working in which the packets would
+carry data and maintain that data by pinging it around the network. Data could then
+be retrieved by doing a DNS-like lookup for packets.
+
+A second aim was the combination of ruby with erlang to do something useful, that turned
+to be unstable because of the bridge between ruby and erlang.
+
